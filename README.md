@@ -5,3 +5,6 @@
 - Enter `npm i` in your terminal to install all the dependencies
 - Run `node generate-form.js` to generate a `index.html` file
 - Open `index.html` in your browser and upload the file to S3 bucket
+
+
+The Lambda that is triggred on file upload will copy the same file to another bucket and get the public url of the file
